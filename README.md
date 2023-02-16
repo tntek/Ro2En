@@ -30,7 +30,7 @@ You need to download the following data.
 ```shell
 python MPNet/AE/Ro2En.py	//train Ro2En
 python MPNet/AE/train.py	//train neural planner
-python 3Dtest.py	// evaluation
+python 3Dtest.py	// evaluation on target domains
 python neuralplanner.py //evaluation on source domain
 ```
 
@@ -39,7 +39,7 @@ python neuralplanner.py //evaluation on source domain
 ```shell
 python MPNet/AE/CAE.py	//train MPNet_CAE
 python MPNet/AE/train.py	//train neural planner
-python 3Dtest.py	// evaluation
+python 3Dtest.py	// evaluation on target domains
 python neuralplanner.py //evaluation on source domain 
 ```
 *Note*: 
