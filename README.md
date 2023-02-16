@@ -41,7 +41,8 @@ python MPNet/AE/train.py	//train neural planner
 python 3Dtest.py	// evaluation
 ```
 *Note*: 
-Before training the neural planner, you need to set the environment encoder to use in [data_loader.py](/MPNet/data_loader.py)
+* Before training the neural planner, you need to set the environment encoder to use in [data_loader.py](/MPNet/data_loader.py).
+* When testing you need to determine which environment encoder and neural planner you want to use in [3Dtest.py](3Dtest.py).
 ## Results
 
 ![](/results/results.png)
