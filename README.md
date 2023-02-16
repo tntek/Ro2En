@@ -1,6 +1,10 @@
 # Motion Planning Networks
 Code (pytorch) for  [Robust Environment Encoder for Zero-shot Fast Motion Planning]() on C3D, C3D3, C3D5,C3D8,C3D10
 
+## Overview of Ro2En-based motion planning.
+
+![]()
+
 ## Data Download
 
 You need to download the following data.
@@ -20,6 +24,8 @@ You need to download the following data.
 
 ## Training and evaluation
 
+Before training the neural planner, you need to set the environment encoder to use in [data_loader.py](/MPNet/data_loader.py)
+
 **Ro2En:**
 
 ```shell
@@ -35,7 +41,9 @@ python MPNet/AE/CAE.py	//train MPNet_CAE
 python MPNet/AE/train.py	//train neural planner
 python 3Dtest.py	// evaluation
 ```
+## Results
 
+![]()
 
 
 ## Acknowledgement
