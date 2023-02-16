@@ -31,6 +31,7 @@ You need to download the following data.
 python MPNet/AE/Ro2En.py	//train Ro2En
 python MPNet/AE/train.py	//train neural planner
 python 3Dtest.py	// evaluation
+python neuralplanner.py //evaluation on source domain
 ```
 
 **MPNet:**
@@ -39,6 +40,7 @@ python 3Dtest.py	// evaluation
 python MPNet/AE/CAE.py	//train MPNet_CAE
 python MPNet/AE/train.py	//train neural planner
 python 3Dtest.py	// evaluation
+python neuralplanner.py //evaluation on source domain 
 ```
 *Note*: 
 * Before training the neural planner, you need to set the environment encoder to use in [data_loader.py](/MPNet/data_loader.py).
