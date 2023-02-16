@@ -3,7 +3,7 @@ Code (pytorch) for  [Robust Environment Encoder for Zero-shot Fast Motion Planni
 
 ## Overview of Ro2En-based motion planning.
 
-![]()
+![](/results/fig3.pdf)
 
 ## Data Download
 
@@ -43,7 +43,7 @@ python 3Dtest.py	// evaluation
 ```
 ## Results
 
-![]()
+![](/results/results.png)
 
 
 ## Acknowledgement
