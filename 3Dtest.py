@@ -1,8 +1,8 @@
 
 from models.models import Encoder
 import torch
-from generate_obs import  generateSquareBorder
-from pcl_visualizer import drawPath
+#from generate_obs import  generateSquareBorder
+#from pcl_visualizer import drawPath
 import time,math
 import numpy as np
 from MPNet.model import MLP 
@@ -324,19 +324,7 @@ def generatePath():
                         prRed("path not found, dont worry")
                         path = 0
 
-            if bool(path) == 0:
-                continue
-            path_num = len(path)
-            path_rgb = np.empty((path_num,6))
-            for x in range(path_num):
-                path[x] = path[x].numpy()
-            rgb = np.tile([1,0,0],(path_num,1))
-            path_rgb[:,:3] = path
-            path_rgb[:,3:] = rgb
-            borders = generateSquareBorder(current_obc,current_collision)
-            # drawPath([current_env.reshape(2000,3),path_rgb,borders])
-            print("draw path")
-            
+          
     # tot.append(et)
 
     f = open("test1.txt","a")
